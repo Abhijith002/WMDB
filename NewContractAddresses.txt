@@ -1,0 +1,42 @@
+----------------------------------------------------
+Deploying WMDBToken and waiting for confirmations...
+deploying "WMDBToken" (tx: 0xeb10391a3ba7b90806afa4d097a320c07d7769bca08c06cb7a7157bd984c6dd3)...: deployed at 0xCDd50f76F2410F40Be6002589Fc98907e8B8211B with 1794425 gas
+GovernanceToken at 0xCDd50f76F2410F40Be6002589Fc98907e8B8211B
+Transferring to 0xCD19d747026275bEd2f40dcC7D3F4eE787af583e
+Balance: 50000000000000000000
+Transferring to 0xE700fa58f02701AC7ee87C6a4A86777193970e4F
+Balance: 50000000000000000000
+Transferring to 0x67A0cc56Fe00106dd2ea8F603FCa2Fc3d289f2Bc
+Balance: 50000000000000000000
+Transferring to 0x8a5de0af965b95FE0D2141B78F783B5080cD575a
+Balance: 50000000000000000000
+Transferring to 0x90ea680E2E2380b9bdfF8487CC1f95a83a719DA3
+Balance: 50000000000000000000
+Transferred!
+GovernanceToken at 0xCDd50f76F2410F40Be6002589Fc98907e8B8211B
+Delegating to 0xCD19d747026275bEd2f40dcC7D3F4eE787af583e
+Checkpoints: 1
+Delegating to 0xE700fa58f02701AC7ee87C6a4A86777193970e4F
+Checkpoints: 1
+Delegating to 0x67A0cc56Fe00106dd2ea8F603FCa2Fc3d289f2Bc
+Checkpoints: 1
+Delegating to 0x8a5de0af965b95FE0D2141B78F783B5080cD575a
+Checkpoints: 1
+Delegating to 0x90ea680E2E2380b9bdfF8487CC1f95a83a719DA3
+Checkpoints: 1
+Delegated!
+----------------------------------------------------
+Deploying TimeLock and waiting for confirmations...
+deploying "TimeLock" (tx: 0x9a39cc82b636c355c1bc0a6692aeddf6721c3c846a3cd8421fcac0389960a13d)...: deployed at 0xEe561DE7F78A1dDdB0Fc531a1EE196eDF4d2AB0f with 1888441 gas
+TimeLock at 0xEe561DE7F78A1dDdB0Fc531a1EE196eDF4d2AB0f
+----------------------------------------------------
+Deploying WMDBGovernor and waiting for confirmations...
+deploying "WMDBGovernor" (tx: 0xd2e015baa964415eb9524a252f3bd20a836314fa857f65fe238d24bab8fdc5c4)...: deployed at 0x328655ae79A76fc2839f8Bf16F36f2aB90B5e841 with 3273149 gas
+GovernorContract at 0x328655ae79A76fc2839f8Bf16F36f2aB90B5e841
+----------------------------------------------------
+Setting up roles...
+----------------------------------------------------
+Deploying Web3 Movie Database and waiting for confirmations...
+deploying "WMDB" (tx: 0x39bd6d9fe386062f46d992bc67acee029e9164124c0897227a80d7f4ab8e2981)...: deployed at 0x65600cbA4A03dE2cfEe8E76Eb8828d46FBD02419 with 518070 gas
+WMDB at 0x65600cbA4A03dE2cfEe8E76Eb8828d46FBD02419
+Done in 245.13s.

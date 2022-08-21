@@ -1368,8 +1368,8 @@
       ]
     },
     "C:\\Users\\abhig\\Projects\\WMDB\\TheDAO\\contracts\\WMDBGovernor.sol": {
-      "lastModificationDate": 1658135179066,
-      "contentHash": "f4a1dbdfb939c1ed1cb2b54a0e0ecf7c",
+      "lastModificationDate": 1661089839861,
+      "contentHash": "111c9c13d1f9fcde83ac4b1e10aa3053",
       "sourceName": "contracts/WMDBGovernor.sol",
       "solcConfig": {
         "version": "0.8.9",
@@ -1406,6 +1406,7 @@
         "@openzeppelin/contracts/governance/extensions/GovernorSettings.sol",
         "@openzeppelin/contracts/governance/extensions/GovernorCountingSimple.sol",
         "@openzeppelin/contracts/governance/extensions/GovernorVotes.sol",
+        "@openzeppelin/contracts/governance/extensions/GovernorVotesQuorumFraction.sol",
         "@openzeppelin/contracts/governance/extensions/GovernorTimelockControl.sol"
       ],
       "versionPragmas": [
@@ -1549,8 +1550,8 @@
       ]
     },
     "C:\\Users\\abhig\\Projects\\WMDB\\TheDAO\\contracts\\WMDBToken.sol": {
-      "lastModificationDate": 1658135013155,
-      "contentHash": "1020d5994da1e78572981721a2c71409",
+      "lastModificationDate": 1661087604389,
+      "contentHash": "039916c391a9d8564177efb6d8680578",
       "sourceName": "contracts/WMDBToken.sol",
       "solcConfig": {
         "version": "0.8.9",
@@ -1590,6 +1591,50 @@
       ],
       "artifacts": [
         "WMDBToken"
+      ]
+    },
+    "C:\\Users\\abhig\\Projects\\WMDB\\TheDAO\\node_modules\\@openzeppelin\\contracts\\governance\\extensions\\GovernorVotesQuorumFraction.sol": {
+      "lastModificationDate": 1656686505001,
+      "contentHash": "b346cb21204465106e3d5ea7b6264ee9",
+      "sourceName": "@openzeppelin/contracts/governance/extensions/GovernorVotesQuorumFraction.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./GovernorVotes.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GovernorVotesQuorumFraction"
       ]
     }
   }
