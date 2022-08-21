@@ -2,11 +2,14 @@ import "@typechain/hardhat"
 import "@nomiclabs/hardhat-waffle"
 // import "@nomiclabs/hardhat-etherscan"
 import "@nomiclabs/hardhat-ethers"
+import "dotenv/config"
 import "hardhat-deploy"
 import { HardhatUserConfig } from "hardhat/config"
 
+const PRIVATE_KEY = process.env.PRIVATE_KEY || "privatKey"
+
 const config: HardhatUserConfig = {
-  defaultNetwork: "hardhat",
+  defaultNetwork: "matic",
   networks: {
     hardhat: {
       chainId: 31337,
@@ -21,6 +24,11 @@ const config: HardhatUserConfig = {
     //   accounts: [PRIVATE_KEY],
     //   chainId: 4,
     // },
+    matic: {
+      url: "https://polygon-mumbai.g.alchemy.com/v2/kS-ULMP3-Ksm1_BMwQCyRoaIUYVOfkmw",
+      accounts: [PRIVATE_KEY],
+      chainId: 80001,
+    },
   },
   solidity: {
     version: "0.8.9",

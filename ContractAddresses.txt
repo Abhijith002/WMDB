@@ -1,0 +1,25 @@
+Deploying WMDBToken and waiting for confirmations...
+deploying "WMDBToken" (tx: 0x37ff5ee01f2149262b50ab99f3c2c9620b3d19dfb03bcb1509e5e20f5085db5c)...: 
+deployed at 0xAfd896cE8CD3fc01D4f0adef0221C0f1886083bB with 1794429 gas
+GovernanceToken at 0xAfd896cE8CD3fc01D4f0adef0221C0f1886083bB
+Delegating to 0x16b3E026CA0B85C41B080de63B243878e8617aF0
+Checkpoints: 1
+Delegated!
+----------------------------------------------------
+Deploying TimeLock and waiting for confirmations...
+deploying "TimeLock" (tx: 0x5d05ae067782293566543370664e90d669b412ecebbc496442e8cbf64dd065b6)...: 
+deployed at 0x534e196D47b1eCc84a7e8207F29538926DfD888f with 1888441 gas
+TimeLock at 0x534e196D47b1eCc84a7e8207F29538926DfD888f
+----------------------------------------------------
+Deploying WMDBGovernor and waiting for confirmations...
+deploying "WMDBGovernor" (tx: 0x7aadb2f7398789dd76f37a6ab2d45956c76f5da1f216455b5309b45433795499)...: 
+deployed at 0x0f058518BBb2c7CC0B38d3173A89Bfc52090dD48 with 3096726 gas
+GovernorContract at 0x0f058518BBb2c7CC0B38d3173A89Bfc52090dD48
+----------------------------------------------------
+Setting up roles...
+----------------------------------------------------
+Deploying Web3 Movie Database and waiting for confirmations...
+deploying "WMDB" (tx: 0xcd608785f3cdc525b164b1f78ce5d03e7ea93e6896c58f7ca7723720270483b4)...: 
+deployed at 0x1798CD35678248d895165cF0087f103fbBeDd84F with 518070 gas
+WMDB at 0x1798CD35678248d895165cF0087f103fbBeDd84F
+Done in 182.15s.

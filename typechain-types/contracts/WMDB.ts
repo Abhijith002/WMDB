@@ -30,12 +30,12 @@ import type {
 export declare namespace WMDB {
   export type Web3mdbStruct = {
     id: PromiseOrValue<BigNumberish>;
-    url: PromiseOrValue<string>;
+    cid: PromiseOrValue<string>;
   };
 
   export type Web3mdbStructOutput = [BigNumber, string] & {
     id: BigNumber;
-    url: string;
+    cid: string;
   };
 }
 

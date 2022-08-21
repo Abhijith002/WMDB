@@ -52,8 +52,6 @@ export type { IERC165 } from "./@openzeppelin/contracts/utils/introspection/IERC
 export { IERC165__factory } from "./factories/@openzeppelin/contracts/utils/introspection/IERC165__factory";
 export type { DoubleEndedQueue } from "./@openzeppelin/contracts/utils/structs/DoubleEndedQueue";
 export { DoubleEndedQueue__factory } from "./factories/@openzeppelin/contracts/utils/structs/DoubleEndedQueue__factory";
-export type { GovernanceToken } from "./contracts/GovernanceToken";
-export { GovernanceToken__factory } from "./factories/contracts/GovernanceToken__factory";
 export type { TimeLock } from "./contracts/TimeLock";
 export { TimeLock__factory } from "./factories/contracts/TimeLock__factory";
 export type { WMDB } from "./contracts/WMDB";

@@ -9,7 +9,7 @@ contract WMDB is Ownable {
 
     struct web3mdb {
         uint256 id;
-        string url;
+        string cid;
     }
 
     web3mdb[] private wmdb;
@@ -19,7 +19,7 @@ contract WMDB is Ownable {
 
     // Stores a new value in the contract
     function store(string memory newValue) public onlyOwner {
-        web3mdb memory newMovie = web3mdb({id: iterableId, url: newValue});
+        web3mdb memory newMovie = web3mdb({id: iterableId, cid: newValue});
         wmdb.push(newMovie);
         iterableId++;
         emit ValueChanged(newValue);
@@ -32,6 +32,6 @@ contract WMDB is Ownable {
 
     // Retrieve specific movie by ID
     function retrieveOne(uint256 id) public view returns (string memory) {
-        return wmdb[id].url;
+        return wmdb[id].cid;
     }
 }

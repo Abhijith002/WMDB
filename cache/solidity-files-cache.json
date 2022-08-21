@@ -1280,8 +1280,8 @@
       ]
     },
     "C:\\Users\\abhig\\Projects\\WMDB\\TheDAO\\contracts\\WMDB.sol": {
-      "lastModificationDate": 1658081291587,
-      "contentHash": "55ea056f059f68ca60348197bc0d1112",
+      "lastModificationDate": 1660976378544,
+      "contentHash": "e0fa85e9ab57cce17b5a1655e3276ddc",
       "sourceName": "contracts/WMDB.sol",
       "solcConfig": {
         "version": "0.8.9",
